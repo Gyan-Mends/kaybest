@@ -1,0 +1,32 @@
+/* css style for input boxes */
+/* css style for input boxes */
+#booking{
+    width: 500px !important;
+    height: 50px !important;
+}
+#appointmentDetails{
+    width: 500px !important;
+    height: 200px !important;
+}
+
+/* css style for submit */
+/* css style for submit */
+#submit{
+    height: 50px;
+    background-color: orangered;
+    border: solid 1px orangered ;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+}
+
+/* css style for @media*/
+/* css style for @media*/
+@media only screen and (max-width:750px) {
+    #booking {
+        width: 330px !important;
+    }
+    #appointmentDetails{
+        width: 330px !important;
+    }
+}
